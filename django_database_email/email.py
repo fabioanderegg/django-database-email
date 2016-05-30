@@ -5,7 +5,7 @@ from django.utils.html import strip_tags
 from django.template import Template
 from django.conf import settings
 
-from apps.email.models import EMail
+from .models import EMail
 
 
 def send_email(email_name, recipients, context, sender=settings.DEFAULT_FROM_EMAIL):
