@@ -1,7 +1,7 @@
 Store email templates in the database and send it with a simple function call.
 
 # Installation
-* Add the app to your INSTALLED_APPS list
+* Add the app 'database_email' to your INSTALLED_APPS list
 * Migrate the database
 
 # Usage
@@ -16,7 +16,3 @@ In addition, a plain text version of the rendered text is generated using the dj
 To generate correct links in the plain text version, use the following syntax:
 
     <a href="http://example.com">http://example.com</a>
-
-# Translations
-This project has no builtin translation support, use something like [Django Model Translation](http://django-modeltranslation.readthedocs.io) or similar.
-
